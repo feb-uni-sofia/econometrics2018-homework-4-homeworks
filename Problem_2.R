@@ -7,6 +7,7 @@ str(crime)
 fit <- lm(C ~ HS, data = crime)
 summary(fit)
 
+## /score -1 generic answer not related to the subject matter.
 ##Intercept is an estimator for b0
 ##HS is an estimator for b1
 ##Both are called regression coefficients
@@ -26,10 +27,11 @@ summary(fit1)
 ## With U in the model the value of the Estimated coefficient
 ## becomes less than without U in the model
 
+## /score -1 generic answer
 ## d)
 
 pairs( ~ C + HS, data = crime)
-
+## /score -4
 ##The politician's claims that the lower education spending will reduce the crime rates are wrong.
 ##We can see from the scatterplot matrix, that the lower HS bring more crimes.
 
@@ -38,7 +40,5 @@ pairs( ~ C + HS, data = crime)
 fit3 <- lm(C ~ HS + U + I, data = crime)
 summary(fit3)
 
-
-
-
+## /score -5
 
